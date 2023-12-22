@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CREAR GIFCARD</title>
+</head>
+<body>
+    <div class="voucher-form-container">
+        <h2>Detalles del Gifcard</h2>
+        <form id="voucherForm">
+            <div class="form-group">
+                <label for="from">De parte de:</label>
+                <input type="text" id="from" name="from">
+            </div>
+
+            <div class="form-group">
+                <label for="to">Para:</label>
+                <input type="text" id="to" name="to">
+            </div>
+
+            <div class="form-group">
+                <label for="gift">Mensaje:</label>
+                <input type="text" id="gift" name="gift">
+            </div>
+           
+
+            <div class="form-group">
+                <label for="productSelect">Monto o Producto:</label>
+                <span class="container-form">
+                <input type="text" id="montoProducto" placeholder="Monto o Producto" />
+                <select id="productSelect" name="product" class="accordion">
+                    <!-- Las opciones se cargarán dinámicamente aquí -->
+                </select>
+            </span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Aceptar</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

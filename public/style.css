@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #292929;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+li{
+    color: #fafafa;
+}
+.voucher-form-container {
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.voucher-form-container h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-group button:hover {
+    background: #3f51b5;
+}
+.accordion {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.accordion-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* El último item no debe tener borde inferior */
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+/* Estilos para cuando el acordeón esté expandido (esto se gestionará con JavaScript) */
+.accordion-item.active {
+    background: #e9e9e9;
+}
+
+/* Estilos para los detalles del producto dentro del acordeón */
+.product-detail {
+    display: none; /* Esto cambiará a 'block' cuando el ítem esté activo */
+}
+
+/* Establecer estilos generales para el formulario */
+.product-form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegúrate de que el padding no afecte el ancho total */
+}
+
+/* Estilos para el botón de envío */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Agrega esto para centrar verticalmente */
+    margin: auto; /* Esto centrará la sección en el espacio disponible */
+    height: auto; /* Asegúrate de que la sección no sea más alta que la pantalla */
+  }
+
+  .giftcard-list-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  #giftcardList{
+    padding: 0;
+    list-style-type: none;
+
+  }
+
+  .product-form-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .productForm{
+    width: 90%;
+  }
+
+  .container-form{
+    display: flex;
+  }
+
+
+  
